@@ -49,7 +49,7 @@ void main()
 
 	for(i=0;i<count;i++)
 	{
-	printf("|%d\t|%s\t\t|%d\t|%s\t",stu[i].rollno,stu[i].name,stu[i].age,stu[i].address);
+	printf("|%d\t|%s\t  |%d\t|%s\t",stu[i].rollno,stu[i].name,stu[i].age,stu[i].address);
 		for(j=0;j<5;j++)
 		{
 		printf("|%d\t",stu[i].marks[j]);
