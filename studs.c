@@ -45,7 +45,7 @@ void main()
 
 	printf(" _______________________________________________________________________________________\n");
 	printf("|______________________________________STUDENTS_DETAILS_________________________________|\n");
-	printf("ROLL-NO\t|NAME\t\t|AGE\t|ADDRESS\t|SCIENCE|MATHS|PHYSICS|CHEMISTRY|BIOLOGY|\n");
+	printf("ROLL-NO\t|NAME\t  |AGE\t|ADDRESS\t|SCIENCE|MATHS|PHYSICS|CHEMISTRY|BIOLOGY|\n");
 
 	for(i=0;i<count;i++)
 	{
