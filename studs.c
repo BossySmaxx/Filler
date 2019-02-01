@@ -45,11 +45,11 @@ void main()
 
 	printf(" _______________________________________________________________________________________\n");
 	printf("|______________________________________STUDENTS_DETAILS_________________________________|\n");
-	printf("ROLL-NO\t|NAME\t  |AGE\t|ADDRESS\t|SCIENCE|MATHS|PHYSICS|CHEMISTRY|BIOLOGY|\n");
+	printf("ROLL-NO\t|NAME\t|AGE\t|ADDRESS\t|SCIENCE|MATHS|PHYSICS|CHEMISTRY|BIOLOGY|\n");
 
 	for(i=0;i<count;i++)
 	{
-	printf("|%d\t|%s\t  |%d\t|%s\t",stu[i].rollno,stu[i].name,stu[i].age,stu[i].address);
+	printf("|%d\t|%s|%d\t|%s\t",stu[i].rollno,stu[i].name,stu[i].age,stu[i].address);
 		for(j=0;j<5;j++)
 		{
 		printf("|%d\t",stu[i].marks[j]);
